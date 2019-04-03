@@ -9,16 +9,15 @@ from flask_cors import CORS, cross_origin
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
 app.config['CORS_HEADERS'] = 'Content-Type'
-cors = CORS(app, resources={r"/all": {"origins": "http://localhost:4200"}})
+cors = CORS(app, resources={r"/all": {"origins": "*"}})
 socketio = SocketIO(app)
  
 app.config['MONGO_DBNAME'] = 'guestbook'
 app.config['MONGO_URI'] = 'mongodb+srv://dbguest:NSN9mGkU0jfQUFDs@cluster0-at0kr.mongodb.net/guestbook?retryWrites=true'
-#app.config['MONGO_URI'] = 'mongodb+srv://btshbqih:5b3e7930-c2b4-4cb2-97f2-937466cb3571@cluster0-at0kr.mongodb.net/test?retryWrites=true'
 mongo = PyMongo(app)
 
 @app.route('/all', methods=['GET'])
-@cross_origin(origin='localhost',headers=['Content-Type','Authorization', 'Access-Control-Allow-Origin'])
+@cross_origin(origin='*',headers=['Content-Type','Authorization', 'Access-Control-Allow-Origin'])
 def all():
   guests = mongo.db.guests
   output = []

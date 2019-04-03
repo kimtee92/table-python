@@ -1,0 +1,31 @@
+[2019-04-03 23:39:55.920] [sharedprocess] [info] main {"machineId":"2d57c053ac518f4a62511efc200633ee3b871c3b68e21247713f83ae3e374d21"}
+[2019-04-03 23:39:56.208] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:39:56.526] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:39:56.531] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:39:56.551] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:39:56.779] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:39:56.791] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:39:57.576] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:07.416] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:07.472] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:18.908] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:18.913] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:18.915] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:18.917] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:19.056] [sharedprocess] [info] Installing extension: ms-python.python
+[2019-04-03 23:40:19.148] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:19.180] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:19.192] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:19.207] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:19.686] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:19.693] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:19.712] [sharedprocess] [info] Scanned user extensions: 3
+[2019-04-03 23:40:20.538] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:20.566] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:20.579] [sharedprocess] [info] Scanned system extensions: 72
+[2019-04-03 23:40:21.275] [sharedprocess] [info] Downloaded extension: ms-python.python /tmp/71ba7e44-b42c-4308-98b3-203a40bc6f9d
+[2019-04-03 23:40:27.879] [sharedprocess] [info] Extracted extension to /root/.vscode/extensions/.ms-python.python-2019.3.6352: ms-python.python
+[2019-04-03 23:40:27.880] [sharedprocess] [info] Renamed to /root/.vscode/extensions/ms-python.python-2019.3.6352
+[2019-04-03 23:40:27.908] [sharedprocess] [info] Installation completed. ms-python.python
+[2019-04-03 23:40:27.939] [sharedprocess] [info] Extensions installed successfully: ms-python.python
+[2019-04-03 23:40:35.957] [sharedprocess] [info] Starting to clean up unused language packs.
